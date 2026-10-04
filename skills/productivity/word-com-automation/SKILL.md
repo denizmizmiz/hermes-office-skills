@@ -2,7 +2,7 @@
 name: word-com-automation
 description: Use when converting .doc or exporting PDF on Windows.
 version: 1.0.0
-author: denizmizmiz-blip (with Hermes Agent)
+author: denizmizmiz (with Hermes Agent)
 license: MIT
 platforms: [windows]
 metadata:

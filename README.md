@@ -42,5 +42,5 @@ These versions are offered upstream to the Hermes project:
   [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent)
   (MIT, © Nous Research — see `LICENSE` inside each skill folder).
 - v1.3.0 enhancements and `word-com-automation`:
-  © 2026 Deniz Mizmizlioğlu ([@denizmizmiz-blip](https://github.com/denizmizmiz-blip)), MIT.
+  © 2026 Deniz Mizmizlioğlu ([@denizmizmiz](https://github.com/denizmizmiz)), MIT.
 - Community-maintained; not an official Nous Research product.
