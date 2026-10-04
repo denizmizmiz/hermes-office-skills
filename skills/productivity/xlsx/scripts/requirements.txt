@@ -1,0 +1,11 @@
+# Hermes xlsx skill — pinned runtime dependencies.
+#
+# Installed and verified locally with:
+#   uv run --with-requirements scripts/requirements.txt python scripts/xlsx_read.py ...
+# or with the Hermes venv python (already has openpyxl 3.1.5):
+#   ~/.hermes/hermes-agent/venv/Scripts/python.exe   # or any Python with openpyxl
+#
+# The <3.2 pin is deliberate: the 18-feature fidelity matrix, the chart/image
+# round-trip guarantee and the D4/D5 corrections were all measured against
+# openpyxl 3.1.5. A 3.2 major bump would invalidate those measurements.
+openpyxl>=3.1.5,<3.2

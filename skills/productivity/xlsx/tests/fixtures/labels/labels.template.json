@@ -1,0 +1,71 @@
+{
+  "_comment": "Oracle for AC-B03. The USER fills this file; the agent must not edit the labels. keys: book = fixture variant name, column = letter, expected_role = one of the dictionary roles, note = optional free text.",
+  "books": [
+    "clean",
+    "english",
+    "reordered",
+    "mismatch"
+  ],
+  "columns": [
+    {
+      "book": "clean",
+      "column": "A",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "clean",
+      "column": "B",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "clean",
+      "column": "C",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "clean",
+      "column": "D",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "clean",
+      "column": "E",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "clean",
+      "column": "F",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "english",
+      "column": "A",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "english",
+      "column": "B",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "english",
+      "column": "C",
+      "expected_role": "",
+      "note": ""
+    },
+    {
+      "book": "english",
+      "column": "D",
+      "expected_role": "",
+      "note": ""
+    }
+  ]
+}

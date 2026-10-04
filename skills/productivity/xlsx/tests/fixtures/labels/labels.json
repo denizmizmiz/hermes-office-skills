@@ -1,0 +1,383 @@
+{
+  "_comment": "Oracle for AC-B03. Authored by the AGENT at the user's explicit request (user delegated the labeling task). Rubric: role = what the column MEANS per the TR/EN dictionary; a formula column keeps its business role (derived-ness is carried by value_kind=formula + ambiguity); placeholder headers ('Bilinmeyen Alan', 'Fazla Kolon') -> unknown. NOT an independent human oracle: replacing this file with your own labels re-runs the metric.",
+  "books": [
+    "clean",
+    "english",
+    "reordered",
+    "mismatch",
+    "extra",
+    "missing",
+    "duplicate",
+    "hidden",
+    "ambiguous",
+    "merged"
+  ],
+  "columns": [
+    {
+      "book": "clean",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "clean",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "clean",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "clean",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "clean",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "clean",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "D",
+      "expected_role": "summary",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "english",
+      "column": "F",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "A",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "B",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "reordered",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "mismatch",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "extra",
+      "column": "G",
+      "expected_role": "unknown",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "D",
+      "expected_role": "unknown",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "missing",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "C",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "duplicate",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "hidden",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "ambiguous",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "A",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "B",
+      "expected_role": "quantity",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "C",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "D",
+      "expected_role": "currency",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "E",
+      "expected_role": "free_text",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    },
+    {
+      "book": "merged",
+      "column": "F",
+      "expected_role": "label",
+      "note": "agent-authored on user delegation (2026-09-29); rubric: role = meaning per dictionary; formula columns keep the business role"
+    }
+  ]
+}
